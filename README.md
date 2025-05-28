@@ -28,6 +28,8 @@ Untuk mendapatkan file JSON ini adalaah sebagai berikut.
 - pada Service accounts ada tab **Firebase Admin SDK**. lalu klik **Generate new private key**
 - file yang terunduh adalah file JSON untuk credentials
 
+![SS](/image/creds.jpg)
+
 lalu untuk menginialisasi realtime database yang digunakan, masukan tautan realtime database yang digunakan.
 ```python
 firebase_admin.initialize_app(cred, {'databaseURL': ' (masukan url) '})
